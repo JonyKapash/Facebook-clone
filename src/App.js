@@ -4,10 +4,11 @@ import Feed from "./Feed";
 import Header from "./Header";
 import Login from "./Login";
 import Sidebar from "./Sidebar";
+import { useStateValue } from "./StateProvider";
 import Widgets from "./Widgets";
 
 function App() {
-	const user = null;
+	const [{ user }, dispatch] = useStateValue();
 	return (
 		//BEM naming convention
 		<div className="app">
