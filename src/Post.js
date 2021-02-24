@@ -18,10 +18,9 @@ function Post({ postKey, profilePic, image, username, timestamp, message }) {
 		}).catch((error) => {
 			console.error("Error removing document: ", error);
 		});
-		
-		alert('Click')
 	}
 
+	
 	return (
 		<div className="post">
 			<div className="post__top">
