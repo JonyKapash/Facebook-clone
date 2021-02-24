@@ -7,6 +7,7 @@ import db from "./firebase";
 
 function Feed() {
 	const [posts, setPosts] = useState([]);
+	console.log(posts);
 
 	useEffect(() => {
 		db.collection("posts")
@@ -23,7 +24,7 @@ function Feed() {
 
 			{posts.map(post => (
 				<Post
-					key={post.id}
+					postKey={post.id}
 					profilePic={post.data.profilePic}
 					message={post.data.message}
 					timestamp={post.data.timestamp}

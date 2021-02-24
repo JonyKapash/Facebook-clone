@@ -1,4 +1,4 @@
-import { Avatar } from "@material-ui/core";
+import { Avatar, Button } from "@material-ui/core";
 import React from "react";
 import "./Post.css";
 import ThumbUpIcon from "@material-ui/icons/ThumbUp";
@@ -6,8 +6,22 @@ import ChatBubbleOutlineOutlinedIcon from "@material-ui/icons/ChatBubbleOutlineO
 import NearMeIcon from "@material-ui/icons/NearMe";
 import AccountCircleIcon from "@material-ui/icons/AccountCircle";
 import { ExpandMoreOutlined } from "@material-ui/icons";
+import db from "./firebase";
 
-function Post({ profilePic, image, username, timestamp, message }) {
+
+
+function Post({ postKey, profilePic, image, username, timestamp, message }) {
+
+	const handleDeleteClick = () => {
+		db.collection("posts").doc(postKey).delete().then(() => {
+			console.log(`Document ${postKey} successfully deleted!`);
+		}).catch((error) => {
+			console.error("Error removing document: ", error);
+		});
+		
+		alert('Click')
+	}
+
 	return (
 		<div className="post">
 			<div className="post__top">
@@ -15,6 +29,9 @@ function Post({ profilePic, image, username, timestamp, message }) {
 				<div className="post__topInfo">
 					<h3>{username}</h3>
 					<p>{new Date(timestamp?.toDate()).toUTCString()}</p>
+				</div>
+				<div className="post__delBtn">
+				<Button onClick={handleDeleteClick}>X</Button>
 				</div>
 			</div>
 

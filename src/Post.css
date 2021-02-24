@@ -13,6 +13,12 @@
 	padding: 15px;
 }
 
+/* *** */
+.post__delBtn {
+	margin-left: auto;
+	margin-right: 0;
+}
+
 .post__avatar {
 	margin-right: 10px;
 }
