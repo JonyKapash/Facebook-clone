@@ -7,7 +7,7 @@ This is one of my first React web-projects.
 I created the homepage of Facebook and added some simple options like posting/adding image to your wall
 and the ability to log in(authenticate) with your Google account.
 
-
+&nbsp;   &nbsp;   &nbsp;   &nbsp;   &nbsp; 
 ### Technologies I'm using:
 
 
@@ -27,9 +27,7 @@ and the ability to log in(authenticate) with your Google account.
 
 2. Use `npm start` after you download the git repository.  
 
-
-
-
+&nbsp;   &nbsp;   &nbsp;   &nbsp;   &nbsp; 
 
 ### Please make you have both Material-UI and FIREBASE installed if you run on your machine.
 
@@ -38,7 +36,7 @@ and the ability to log in(authenticate) with your Google account.
 #### FIREBASE - `npm install -g firebase-tools`
 
 
-
+&nbsp;   &nbsp;   &nbsp;   &nbsp;   &nbsp; 
 
 
 
