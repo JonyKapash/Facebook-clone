@@ -28,7 +28,7 @@ and the ability to log in(authenticate) with your Google account.
 
 &nbsp;   &nbsp;   &nbsp;   &nbsp;   &nbsp; 
 
-### Please make you have both Material-UI and FIREBASE installed if you run on your machine.
+### Please make you have both Material-UI installed if you run on your machine.
 
 #### MATERIAL-UI -  `npm install @material-ui/core` **or** `yarn add @material-ui/core`
 
