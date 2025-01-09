@@ -1,0 +1,78 @@
+.messageSender {
+  display: flex;
+  margin-top: 30px;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+  width: 100%;
+  max-width: 680px;
+}
+
+.messageSender__top {
+  display: flex;
+  padding: 15px;
+  border-bottom: 1px solid #eff2f5;
+}
+
+.messageSender__top > form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.messageSender__top > .MuiAvatar-root {
+  margin-right: 10px;
+}
+
+.messageSender__input {
+  flex: 1;
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 999px;
+  background-color: #eff2f5;
+  margin-bottom: 10px;
+}
+
+form > input {
+  outline: none;
+  border: none;
+  padding: 5px 20px;
+  margin: 0 10px;
+  border-radius: 999px;
+  background-color: #eff2f5;
+}
+
+form > button {
+  display: none;
+  visibility: hidden;
+  position: absolute;
+}
+
+.messageSender__bottom {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.messageSender__option {
+  display: flex;
+  align-items: center;
+  color: gray;
+  padding: 8px;
+  flex: 1;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.messageSender__option > h3 {
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.messageSender__option:hover {
+  background-color: #eff2f5;
+}
