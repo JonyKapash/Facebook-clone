@@ -23,7 +23,7 @@ and the ability to log in(authenticate) with your Google account.
 
 ### `Launch the project` - You have 2 options to lunch: 
 
-1. Go for the easy way and lunch/watch the project in firebase host here - https://facebook-clone-otb73myja-yonatans-projects-a343b131.vercel.app
+1. Go for the easy way and lunch/watch the project in firebase host here - https://facebook-clone-4otgn1ua0-yonatans-projects-a343b131.vercel.app
 2. Use `npm start` after you download the git repository.  
 
 &nbsp;   &nbsp;   &nbsp;   &nbsp;   &nbsp; 
